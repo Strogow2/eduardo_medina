@@ -1,0 +1,50 @@
+site_name: Eduardo Medina
+nav:
+  - Projects: index.md 
+  - CV: page2.md
+  - About Me: about.md
+        ## Doest his even work
+missing: Missing_data_Everywhere.md
+
+theme :
+  name: material
+  font:
+    text: Roboto
+  features:
+    - header.autohide
+    - navigation.tabs
+    #- navitagion.sections
+    - toc.intergrate
+    - navigation.top
+    - content.tabs.link
+    - contant.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle: 
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: black
+      accent: deep purple
+    - scheme: slate 
+      toggle: 
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: black
+      accent: deep purple    
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Strogow2
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/edum3800
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/eduardomedinaoliveira/
+  homepage: http://127.0.0.1:8000/
+extra_css:
+  - stylesheets/extra.css
+#  - stylesheets/custom.css
+extra_javascript:
+  - javascripts/extra.js
